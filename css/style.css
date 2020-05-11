@@ -63,6 +63,10 @@ a {
     transition: all .3s
 }
 
+ a:visited, a:hover {
+    text-decoration: none;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -411,7 +415,15 @@ p{
     height: 100%;
 }
 
-
+.boton-cabecera {
+  background: #2E9D36;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  padding: 10px; 
+  border-radius: 30px;
+  min-width: 200px;
+}
 
 
 
@@ -767,7 +779,7 @@ footer {
 }
 
 .copyright {
-    color: #ccc;
+    color: #2E9D36;
     margin-bottom: 0;
 }
 
@@ -1363,6 +1375,10 @@ textarea:focus {
 
 .padding80{
     padding-top: 80px;
+}
+
+.margin_izq{
+    margin-left: 120px;
 }
 
 @media only screen and (max-width: 520px) {
