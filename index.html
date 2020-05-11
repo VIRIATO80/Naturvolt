@@ -24,8 +24,8 @@
 		<meta name="theme-color" content="#ffffff">
 
         <!-- Bootstrap -->
-        <link href="./css/bootstrap2.min.css" rel="stylesheet">
-        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/slit-slider.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="./ionicons/css/ionicons.min.css" rel="stylesheet">
 
         <!-- main css -->
@@ -34,13 +34,6 @@
 
         <!-- modernizr -->
         <script src="./js/modernizr.js"></script>
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
     </head>
 
     <body>
@@ -56,21 +49,148 @@
         </div>
         <!-- end Preloader -->
 
-        <div class="container-fluid">
-            <!-- box header -->
+        <!--Menú -->
+        <nav class="navbar navbar-light navbar-expand-md justify-content-center">
+            <div class="navbar-brand d-flex w-50 mr-auto logotipo" >
+                <span class="logotipo_span">
+                    <a href="#intro" class="enlace_raw">
+                        <img src="img/logo-naturvolt.png" alt="NaturVolt" style="max-height: 50px;" />
+                        NaturVolt
+                    </a>
+                </span>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item  nav-a">
+                        <a class="nav-link enlace" href="#">Conócenos</a>
+                    </li>
+                    <li class="nav-item  nav-a">
+                        <a class="nav-link enlace" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item  nav-a">
+                        <a class="nav-link enlace" href="#">Buscamos talento</a>
+                    </li>
+                    <li class="nav-item  nav-a">
+                        <a class="nav-link enlace" href="#">Contacto</a>
+                    </li>
+                    <!--li class="nav-item  nav-a">
+                        <a class="nav-link enlace" href="#">Noticias</a>
+                    </li-->
+                    <li class="nav-item  nav-a">
+                        <a class="nav-link enlace" href="#">Distribuidores</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--  Home Slider   -->
+        <section id="home-slider">
+            <div id="slider" class="sl-slider-wrapper">
+                <div class="sl-slider">
+
+                    <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25"
+                        data-slice1-scale="2" data-slice2-scale="2">
+                        <div class="bg-img bg-img-1"></div>
+                        <div class="slide-caption">
+                            <div class="caption-content">
+                                <!--h2 class="animated fadeInDown">¿Afectado por el COVID-19?</h2>
+                                <span class="animated fadeInDown">Muchos también lo estamos.</span>
+                                <i class="ion-ios-search-strong size-16">&nbsp;Conocenos</i-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15"
+                        data-slice1-scale="1.5" data-slice2-scale="1.5">
+                        <div class="bg-img bg-img-2"></div>
+                        <div class="slide-caption">
+                            <div class="caption-content">
+                                <h2>Aquí<br> poner algo</h2>
+                                <span>Las imagenes oscuras ayudan.</span>
+                                <a href="#" class="btn btn-blue btn-effect">Estoy de acuerdo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3"
+                        data-slice1-scale="2" data-slice2-scale="1">
+                        <div class="bg-img bg-img-3"></div>
+                        <div class="slide-caption">
+                            <div class="caption-content">
+                                <!--h2>DEBEMOS ACTUAR <br> POR ELLOS</h2>
+                                <span>No podemos dejar a los culpables sin castigo.</span>
+                                <a href="#contact" class="btn btn-blue btn-effect">Firmar</a-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="4" data-slice2-rotation="4"
+                        data-slice1-scale="2" data-slice2-scale="1">
+                        <div class="bg-img bg-img-4"></div>
+                        <div class="slide-caption">
+                            <div class="caption-content">
+                                <h2>Aquí<br> poner algo</h2>
+                                <span>Las imagenes oscuras ayudan.</span>
+                                <a href="#" class="btn btn-blue btn-effect">Estoy de acuerdo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="4" data-slice2-rotation="4"
+                        data-slice1-scale="2" data-slice2-scale="1">
+                        <div class="bg-img bg-img-5"></div>
+                        <div class="slide-caption">
+                            <div class="caption-content">
+                                <h2>Aquí<br> poner algo</h2>
+                                <span>Las imagenes oscuras ayudan.</span>
+                                <a href="#" class="btn btn-blue btn-effect">Estoy de acuerdo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="4" data-slice2-rotation="4"
+                        data-slice1-scale="2" data-slice2-scale="1">
+                        <div class="bg-img bg-img-6"></div>
+                        <div class="slide-caption">
+                            <div class="caption-content">
+                                <h2>Aquí<br> poner algo</h2>
+                                <span>Las imagenes oscuras ayudan.</span>
+                                <a href="#" class="btn btn-blue btn-effect">Estoy de acuerdo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                    <a href="javascript:;" class="sl-prev">
+                        <i class="ion-chevron-left size-50 verde"></i>
+                    </a>
+                    <a href="javascript:;" class="sl-next">
+                        <i class="ion-chevron-right size-50 verde"></i>
+                    </a>
+                </nav>
+
+                <nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
+                    <span class="nav-dot-current"></span>
+                    <span></span>
+                    <span></span>
+                </nav>
+            </div>
+        </section>
+        <!-- /slider-wrapper -->
+<!--
             <header class="box-header">
                 <div class="box-logo">
                     <a href="#intro" class="logotipo" >NaturVolt<img src="img/logo-naturvolt.png" alt="NaturVolt" style="max-height: 30px;" /></a>
                 </div>
-                <!-- box-nav -->
+
                 <a class="box-primary-nav-trigger" href="#0">
                     <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
                 </a>
-                <!-- box-primary-nav-trigger -->
-            </header>
-            <!-- end box header -->
 
-            <!-- nav -->
+            </header>
+
             <nav>
                 <ul class="box-primary-nav">
                     <li class="box-label">Sobre NaturVolt</li>
@@ -86,11 +206,11 @@
                     <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
                     <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
                 </ul>
-            </nav>
+            </nav-->
             <!-- end nav -->
 
             <!-- box-intro -->
-            <section id="intro" class="box-intro">
+            <!--section id="intro" class="box-intro">
                 <div class="table-cell">
                     <h1 class="box-headline letters rotate-2">
                         <span class="box-words-wrapper">
@@ -107,7 +227,7 @@
                     <div class="scroll"></div>
                 </div>
             </section>
-        </div>
+        </div-->
         <!--Nuestro objetivo-->
         <div class="container-fluid">
             <section class="about-2 section bg-gray" id="about">
@@ -364,8 +484,9 @@
         <!-- jQuery -->
         <script src="/js/jquery-2.1.1.js"></script>
         <!--  plugins -->
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/menu.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>     
+        <script src="/js/jquery.ba-cond.min.js"></script>
+        <script src="/js/jquery.slitslider.js"></script>
         <script src="/js/animated-headline.js"></script>
 
 
