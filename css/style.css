@@ -1419,6 +1419,9 @@ textarea:focus {
     margin-left: 120px;
 }
 
+.margin_up_down{
+    margin: 20px 0;
+} 
 @media only screen and (max-width: 520px) {
   .cabecera{
     font-size: 24px;
