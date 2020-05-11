@@ -37,7 +37,6 @@
 </head>
 
 <body>
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="pre-container">
@@ -49,7 +48,7 @@
     </div>
     <!-- end Preloader -->
     <!--Menú -->
-    <nav class="navbar navbar-light navbar-expand-md justify-content-center">
+    <nav class="navbar navbar-light navbar-expand-md justify-content-center" id="home">
         <div class="navbar-brand d-flex w-50 mr-auto logotipo">
             <span class="logotipo_span">
                 <a href="#intro" class="enlace_raw">
@@ -64,7 +63,7 @@
         <div class="navbar-collapse collapse w-100" id="collapsingNavbar">
             <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item  nav-a">
-                    <a class="nav-link enlace" href="#">Inicio</a>
+                    <a class="nav-link enlace" href="#home">Inicio</a>
                 </li>
                 <li class="nav-item  nav-a">
                     <a class="nav-link enlace" href="#">Productos</a>
@@ -73,7 +72,7 @@
                     <a class="nav-link enlace" href="#">Clientes</a>
                 </li>
                 <li class="nav-item  nav-a">
-                    <a class="nav-link enlace" href="#">Contacto</a>
+                    <a class="nav-link enlace" href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -289,10 +288,42 @@
                     </div>
                 </div>
         </section>
+        
+        <section class="portfolio bgblack" id="oficinas">
+            <div class="cabecera">
+                <i class="ion-ios-circle-filled size-30 verde"></i>&nbsp;Instalaciones<span class="parpadea text">_</span>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="title text-center">
+                        <h2 class="verde">Nuestras oficinas</h2>
+                        <span class="border"></span>
+                        <p>En pleno corazón de España, al sur de Madrid, están ubicadas las oficinas centrales de Naturvolt.<br/>
+                            Si está interesado en hacer una visita o desea ampliar información sobre nuestros productos, será un placer concertar una cita.
+                        </p>
+                        <p>
+                            <a class="boton-cabecera" href="contacto.html">
+                                Contacto
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">&nbsp;</div>
+                <div class="col-10">
+                    <img src="img/oficinas-naturvolt.jpg" class="img-fluid" />
+                </div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row">
+                &nbsp;
+            </div>
+        </section>
             <!-- End section -->
         <!--FIN Así trabajamos-->
-        <!--Casos de éxito-->
-        <section class="portfolio bgblack" id="clientes">
+        <!--Nuestro clientes -->
+        <!--section class="portfolio bgblack" id="clientes">
             <div class="cabecera">
                 <i class="ion-ios-circle-filled size-30 verde"></i>&nbsp;Nuestros clientes<span class="parpadea text">_</span>
             </div>
@@ -369,7 +400,7 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section--> 
         <!-- End section -->
         <!-- footer -->
         <footer>
@@ -397,6 +428,7 @@
 
         <!--  custom script -->
         <script src="/js/custom.js"></script>
+        <script src="/js/slider.js"></script>
     </div>
 </body>
 
