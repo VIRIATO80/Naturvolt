@@ -704,6 +704,7 @@ b i:last-child {
   position: relative;
   transition: .3s all;
   overflow: hidden;
+  padding: 30px;
 }
 
 .portfolio-block:before {
@@ -716,12 +717,14 @@ b i:last-child {
   bottom: 0;
   background: rgba(46, 157, 54, 0.7);
   transition: .3s all;
+  padding: 30px;
 }
 
 .portfolio-block:hover:before {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
+  padding: 30px;
 }
 
 .portfolio-block:hover .caption h4 {
@@ -840,7 +843,7 @@ footer img {
 ==================================================================*/
 
 .section {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 .section-sm {
@@ -1101,7 +1104,8 @@ footer img {
 }
 
 .service-box h3 {
-    margin-top: 0;
+    font-size: 22px;
+    margin: 10px 0;
 }
 
 .service-box p {
@@ -1373,10 +1377,6 @@ textarea:focus {
     text-transform: uppercase;
 }
 
-.padding80{
-    padding-top: 80px;
-}
-
 .margin_izq{
     margin-left: 120px;
 }
@@ -1394,4 +1394,8 @@ textarea:focus {
       flex: 0 0 90%;
       max-width: 100%; 
   }
+}
+
+.container-fluid {
+    width: 95%;
 }

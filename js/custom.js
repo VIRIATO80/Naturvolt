@@ -114,7 +114,7 @@ $(window).load(function () {
     });
 
     //Slider
-    var slideHeight = $(window).height() - 40;
+    var slideHeight = $(window).height() - 60;
 
     $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height', slideHeight);
 
