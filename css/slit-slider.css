@@ -81,11 +81,11 @@
 }
 
 #nav-arrows > a.sl-prev {
-	left: 50px;
+	left: 1px;
 }
 
 #nav-arrows > a.sl-next {
-	right: 50px;
+	right: 1px;
 }
 
 
