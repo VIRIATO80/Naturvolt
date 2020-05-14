@@ -150,24 +150,20 @@
 }
 
 .bg-img-1 {
-	background-image: url(../img/slider/naturvolt-1.jpg);
-}
-.bg-img-2 {
-	background-image: url(../img/naturvol-about-2.jpg);
-}
-.bg-img-3 {
-	background-image: url(../img/slider/naturvolt-2.jpg);
-}
-.bg-img-4 {
-	background-image: url(../img/slider/4.jpg);
-}
-
-.bg-img-5 {
 	background-image: url(../img/slider/5.jpg);
 }
-.bg-img-6 {
-	background-image: url(../img/slider/3.jpg);
+
+.bg-img-2 {
+	background-image: url(../img/slider/naturvolt-2.jpg);
 }
+.bg-img-3 {
+	background-image: url(../img/naturvol-about-2.jpg);
+}
+
+.bg-img-4 {
+	background-image: url(../img/slider/monitorizacion-naturlvolt.jpg);
+}
+
 
 /* Animations for content elements */
 
