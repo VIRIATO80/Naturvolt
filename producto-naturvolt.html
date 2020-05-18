@@ -23,7 +23,6 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Slick Carousel -->
   <link href="/plugins/slick/slick.css" rel="stylesheet">
@@ -32,22 +31,13 @@
   <link href="./ionicons/css/ionicons.min.css" rel="stylesheet">
   <!-- main css -->
   <link href="./css/style.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 
   <!-- modernizr -->
   <script src="./js/modernizr.js"></script>
 </head>
 
 <body>
-    <!-- Preloader -->
-    <div id="preloader">
-      <div class="pre-container">
-        <div class="spinner">
-          <div class="double-bounce1"></div>
-          <div class="double-bounce2"></div>
-        </div>
-      </div>
-    </div>
     <!-- end Preloader -->
     <!--Menú -->
     <nav class="navbar navbar-light navbar-expand-md justify-content-center" id="home">
@@ -89,22 +79,22 @@
       <section class="hero-area">
         <div class="animated-bg"></div>
         <div class="block">
-          <h1><img src="img/logo-transparente.png" alt="NaturVolt" style="max-height: 150px;" />NaturVolt</h1>
+          <h1 class="animate__animated animate__backInDown"><img src="img/logo-transparente.png" alt="NaturVolt" style="max-height: 150px;" />NaturVolt</h1>
           <p style="font-size: 22px;">Impulsando la energía respetando el medioambiente.</p>
         </div>
       </section>
       <section class="testimonial" id="testimonial">
             <!--Bloque el equipo-->
             <div class="cabecera">
-              <i class="ion-ios-circle-filled size-30 verde"></i>&nbsp;El equipo Naturvolt<span class="parpadea text">_</span>
+              <i class="ion-ios-circle-filled size-30 verde"></i>&nbsp;Los equipos<span class="parpadea text">_</span>
             </div>
             <div class="row">
               <div class="col-12">
                 <div class="title text-center">
                   <h2 class="verde">Eficiencia energética de última generación</h2>
                   <span class="border"></span>
-                  <p>Los equipos Naturvolt se instalan siempre en serie, a partir del transformador de baja tensión y por debajo de la protección general. Actúan sobre toda la instalación y disponen de bypass automático.</p>
-                  <p>El equipo <em>Naturvolt</em> actúa controlando específicamente el alto consumo de una línea determinada, ligada a procesos productivos precisos o estacionales que distorsionan las medias anuales de consumo eléctrico de la empresa.
+                  <p>Los equipos Naturvolt se instalan siempre en serie, a partir del transformador de baja tensión y por debajo de la protección general. Actúan sobre toda la instalación y sin paso por cero.</p>
+                  <p>Los equipos <em>Naturvolt</em> actúan controlando específicamente el alto consumo de una línea determinada, ligada a procesos productivos precisos o estacionales que distorsionan las medias anuales de consumo eléctrico de la empresa.
                   </p>
                 </div>
               </div>
@@ -114,7 +104,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="title text-center">
-                 <img src="/img/maquina-naturvolt.jpg" class="img-fluid img-center borde-verde" />
+                 <img src="/img/maquina-naturvolt-oscura.jpg" class="img-fluid img-center borde-verde lazy" />
                 </div>
               </div>
             </div>
@@ -141,7 +131,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="title text-center">
-                  <img src="/img/fases-implantacion.jpg" class="img-fluid img-center borde-verde" />
+                  <img src="/img/fases-implantacion.jpg" class="img-fluid img-center borde-verde lazy" />
                 </div>
               </div>
             </div>
@@ -170,6 +160,47 @@
                 </div>
               </div>
             </div>
+            <br />
+            <br />
+            <!--Áreas de implantación-->
+            <div class="cabecera">
+              <i class="ion-ios-circle-filled size-30 verde"></i>&nbsp;Áreas de implantación<span class="parpadea text">_</span>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="title text-center">
+                  <h2 class="verde">Ahorro a su medida</h2>
+                  <span class="border"></span>
+                  <p>Desarrollamos equipos que se adaptan a cualquier entorno y tamaño empresarial, desde el pequeño comercio,
+                  hasta grandes centros productivos. Aportando soluciones desde 30 kW hasta 2,5 MW.</p>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+              <div class="col-12">
+                <div class="title text-center">
+                  <img src="/img/implantacion-naturvolt-1.png" class="img-fluid img-center borde-verde " />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-12">
+                <div class="title text-center">
+                  <img src="/img/implantacion-naturvolt-2.png" class="img-fluid img-center borde-verde" />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-12">
+                <div class="title text-center">
+                  <img src="/img/implantacion-naturvolt-3.png" class="img-fluid img-center borde-verde" />
+                </div>
+              </div>
+            </div>
       </section>
         <!-- footer -->
         <footer>
@@ -188,16 +219,6 @@
     </div>
     <!-- jQuery -->
     <script src="/js/jquery-2.1.1.js"></script>
-    <script src="plugins/slick/slick.min.js"></script>
     <script src="/js/custom.js"></script>
-    <script>
-      $('.testimonial-slider').slick({
-          dots: false,
-          infinite: true,
-          speed: 500,
-          fade: true,
-          cssEase: 'linear'
-        });
-    </script>
 </body>
 </html>
