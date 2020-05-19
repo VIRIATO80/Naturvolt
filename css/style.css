@@ -1504,28 +1504,3 @@ textarea:focus {
 .img-fluid {
     height: 95%;
 }
-
-
-@-webkit-keyframes mk_left_to_right{
-    0%{-webkit-transform:translate(-15%,0);opacity:0}
-    100%{-webkit-transform:translate(0,0);opacity:1}
-}
-@keyframes mk_left_to_right{
-    0%{-webkit-transform:translate(-15%,0);transform:translate(-15%,0);opacity:0}
-    100%{-webkit-transform:translate(0,0);transform:translate(0,0);opacity:1}
-}
-@-webkit-keyframes mk_right_to_left{
-    0%{-webkit-transform:translate(15%,0);opacity:0}
-    100%{-webkit-transform:translate(0,0);opacity:1}
-}
-@keyframes mk_right_to_left{
-    0%{-webkit-transform:translate(15%,0);transform:translate(15%,0);opacity:0}
-    100%{-webkit-transform:translate(0,0);transform:translate(0,0);opacity:1}
-}
-
-
-.right-to-left {
-    -webkit-animation: mk_right_to_left .6s 1 cubic-bezier(.77,0,.175,1);
-    animation: mk_right_to_left .6s 1 cubic-bezier(.77,0,.175,1);
-    opacity: 1;
-}
