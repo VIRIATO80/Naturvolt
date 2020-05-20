@@ -1487,8 +1487,12 @@ textarea:focus {
     margin: 20px 0;
 } 
 @media only screen and (max-width: 520px) {
+  h2 {
+        font-size: 18px;
+  }
+
   .cabecera{
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 30px;
   }
   .text {
@@ -1503,4 +1507,12 @@ textarea:focus {
 
 .img-fluid {
     height: 95%;
+}
+
+.img-fill {
+    display: block; width: 100%; height: auto;
+}
+
+.margin-lados {
+    margin:15px;
 }
