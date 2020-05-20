@@ -30,6 +30,9 @@
 
     <!-- main css -->
     <link href="./css/style.css" rel="stylesheet">
+
+    <!-- Lazy load-->
+    <script src="./js/lazysizes.min.js" async=""></script>
     <!-- modernizr -->
     <script src="./js/modernizr.js"></script>
 </head>
@@ -220,7 +223,7 @@
          <section class="about section-sm" id="about">
             <div class="row mb-5 justify-content-center">
                 <div class="col-md-5">
-                    <img src="/img/naturvol-about-1.jpg" class="img-fluid rounded shadow w-100" alt="Naturvolt medioambiente">
+                    <img data-src="/img/naturvol-about-1.jpg" class="img-fluid rounded shadow w-100 lazyload" alt="Naturvolt medioambiente">
                 </div>
                 <div class="col-md-5">
                     <div class="content">
@@ -256,7 +259,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 order-md-2 order-1">
-                    <img  src="/img/naturvol-about-2.jpg" class="img-fluid rounded shadow w-100" alt="NaturVolt investigación">
+                    <img  data-src="/img/naturvol-about-2.jpg" class="img-fluid rounded shadow w-100 lazyload" alt="NaturVolt investigación">
                 </div>
             </div>
         </section>
@@ -345,7 +348,7 @@
             </div>
             <div class="row">
                 <div class="col-12 text-center">
-                    <img src="img/naturvolt-madrid.jpg" class="img-fluid img-center" />
+                    <img data-src="img/naturvolt-madrid.jpg" class="img-responsive img-center lazyload" />
                 </div>
             </div>
             <div class="row">
@@ -354,6 +357,63 @@
         </section>
          <!-- End Nuestras oficinas -->
 
+        <!--Nuestro clientes -->
+        <!--section class="portfolio" id="clientes">
+            <div class="cabecera">
+                <i class="ion-ios-circle-filled size-30 verde"></i>&nbsp;Nuestros clientes<span class="parpadea text">_</span>
+            </div>
+            <div class="row">
+            <div class="col-12">
+                <div class="title text-center">
+                    <h2 class="verde">Casos de éxito</h2>
+                    <span class="border"></span>
+                    <p>Estos son algunos de los clientes que han confiado en nosotros para mejorar sus instalaciones<br> 
+                        y que disfrutan ya de un importante ahorro en su factura energética.</p>
+                    <p>
+                        <a class="boton-cabecera" href="nuestros-clientes.html">
+                            Saber más
+                        </a>
+                    </p>
+                </div>
+            </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 p-0 filtr-item">
+                        <div class="portfolio-block">
+                            <img class="img-fluid borde-verde" src="img/portfolio/bmw2.jpg" alt="Concesionarios BMW">
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-0 filtr-item" >
+                        <div class="portfolio-block ">
+                            <img class="img-fluid borde-verde" src="img/portfolio/exe-hotels.jpg" alt="Exe Hoteles">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-0 filtr-item" >
+                        <div class="portfolio-block">
+                            <img class="img-fluid borde-verde" src="img/portfolio/Hospes-Hoteles.jpg" alt="Hospes Hoteles">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-0 filtr-item" >
+                        <div class="portfolio-block">
+                            <img class="img-fluid borde-verde" src="img/portfolio/ajusa7.png" alt="Ajusa">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-0 filtr-item" >
+                        <div class="portfolio-block">
+                            <img class="img-fluid borde-verde" src="img/portfolio/ferrer3.png" alt="Laboratorios Ferrer">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-0 filtr-item" >
+                        <div class="portfolio-block">
+                            <img class="img-fluid borde-verde" src="img/portfolio/aldi-naturvolt.jpg" alt="Supermercados Aldi">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section--> 
+        <!-- End section -->
         <!-- footer -->
         <footer>
             <span class="border2"></span>
