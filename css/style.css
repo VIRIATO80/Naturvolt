@@ -85,6 +85,28 @@ a {
 }
 
 
+ul {
+  list-style: none;
+}
+
+li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+li::before {
+  content: "• ";
+  color: #2E9D36;
+}
+
+em {
+ color: #2E9D36;
+}
+
+strong{
+    color: #2E9D36; 
+}
+
 /* typography
 ==================================================*/
 
@@ -1515,4 +1537,9 @@ textarea:focus {
 
 .margin-lados {
     margin:15px;
+}
+
+.dropdown-menu {
+    position: relative;
+    z-index: 10000;
 }
