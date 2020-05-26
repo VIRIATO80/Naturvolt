@@ -260,23 +260,16 @@
               <div class="container product-features">
                 <header class="features-header">
                   <h2 class="features-title">
+                    <br/>
                     <div class="rw-words-text">Implantación</div>
                     <div class="rw-words">
-                      <div id="carousel-home" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="item">
-                            <p class="size-50" >rápida</p>
-                          </div>
-                          <div class="item">
-                            <p class="size-50" >sencilla</p>
-                          </div>
-                          <div class="item active">
-                            <p class="size-50">guiada</p>
-                          </div>
-                          <div class="item">
-                            <p class="size-50" style="white-space: nowrap">a medida</p>
-                          </div>
-                        </div>
+                      <div id="carousel-home" class="box-headline letters rotate-2 carousel slide" data-ride="carousel">
+                        <span class="box-words-wrapper">
+                          <b class="is-visible">rápida</b>
+                          <b>sencilla</b>
+                          <b>guiada</b>
+                          <b>a&nbsp;medida</b>
+                        </span>
                       </div>
                     </div>
                   </h2>
@@ -387,25 +380,6 @@
     <!--  plugins -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="/js/custom.js"></script>
-    <script>
-      function rotarPalabras(){
-        var palabras = document.getElementsByClassName('item');
-        for(i=0; i< palabras.length; i++){
-          let palabra = palabras.item(i);
-          let siguiente = i+1;
-          if((i+1) >= palabras.length){
-            siguiente = 0;
-          }
-          if($(palabra).hasClass('active')){
-            $(palabra).removeClass('active');
-            let palabraSiguiente = palabras.item(siguiente);
-            console.log(palabraSiguiente);
-            $(palabraSiguiente).addClass('active');
-            break;
-          }
-        }
-      };
-      setInterval(rotarPalabras, 2500);
-    </script>
+    <script src="/js/animated-headline.js"></script>
 </body>
 </html>

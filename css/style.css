@@ -554,15 +554,18 @@ b i:last-child {
 
 /* text rotate */
 
-.box-headline {
+.cabecera-grande {
     font-size: 100px;
     line-height: 1.0;
+}
+
+.margin-left-cabecera{
+    margin-left: 300px;
 }
 
 .box-words-wrapper {
     display: inline-block;
     position: relative;
-    margin-left: 300px;
 }
 
 .box-words-wrapper b {
@@ -1350,7 +1353,7 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 670px) {
-    .box-headline {
+    .cabecera-grande {
         font-size: 100px;
     }
     .box-intro h5 {
@@ -1389,7 +1392,7 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 520px) {
-    .box-headline {
+    .cabecera-grande {
         font-size: 80px;
     }
     .box-intro h5 {
@@ -1413,7 +1416,7 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 420px) {
-    .box-headline {
+    .cabecera-grande {
         font-size: 50px;
     }
     .box-intro h5 {
@@ -1626,15 +1629,13 @@ textarea:focus {
 }
 
 .acm-features.style-5 .features-title .rw-words-text {
-  margin-top: 40px;
   float: left;
-  font-size: 40px;
 }
 .acm-features.style-5 .features-title .rw-words {
   color: #2E9D36;
   display: block;
   float: left;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 .acm-features.style-5 .features-title .rw-words .carousel-inner {
   overflow: visible;
