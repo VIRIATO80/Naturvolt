@@ -1594,3 +1594,186 @@ textarea:focus {
         margin-bottom: 52px;
     }
 }
+
+
+/*Estilo para el módulo de implantación*/
+
+@media (max-width: 1199px) {
+  .acm-features.style-5 {
+    background-image: none !important;
+  }
+}
+.acm-features.style-5 .features-title {
+  color: gray;
+  font-size: 56px;
+  text-transform: none;
+  margin-bottom: 52px;
+  margin-top: 0;
+  text-align: left;
+}
+.acm-features.style-5 .features-title:before,
+.acm-features.style-5 .features-title:after {
+  display: table;
+  content: " ";
+}
+.acm-features.style-5 .features-title:after {
+  clear: both;
+}
+@media screen and (max-width: 767px) {
+  .acm-features.style-5 .features-title {
+    font-size: 32px;
+  }
+}
+
+.acm-features.style-5 .features-title .rw-words-text {
+  margin-top: 40px;
+  float: left;
+  font-size: 40px;
+}
+.acm-features.style-5 .features-title .rw-words {
+  color: #2E9D36;
+  display: block;
+  float: left;
+  margin-left: 25px;
+}
+.acm-features.style-5 .features-title .rw-words .carousel-inner {
+  overflow: visible;
+}
+.acm-features.style-5 .features-title .rw-words .carousel-inner .item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
+  -o-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transition: all 400ms ease 0s;
+  -o-transition: all 400ms ease 0s;
+  transition: all 400ms ease 0s;
+  margin-top: 40px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .acm-features.style-5 .features-title .rw-words .carousel-inner .item {
+    transform: translate(0) !important;
+    -webkit-transform: translate(0) !important;
+  }
+}
+.acm-features.style-5 .features-title .rw-words .carousel-inner .item.active {
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.acm-features.style-5 .features-content {
+  margin-left: 0;
+}
+@media (min-width: 992px) {
+  .acm-features.style-5 .features-content {
+    margin-left: -86px;
+  }
+}
+@media (max-width: 1332px) and (min-width: 988px) {
+  .acm-features.style-5 .features-content {
+    margin-left: 0;
+  }
+}
+.acm-features.style-5 .features-content .col {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 52px;
+  padding-left: 90px;
+  position: relative;
+  text-align: left;
+  width: 40%;
+}
+.acm-features.style-5 .features-content .col:last-child {
+  padding-bottom: 0;
+}
+.acm-features.style-5 .features-content .icon-line {
+  background: #2E9D36;
+  height: 100%;
+  left: 25px;
+  position: absolute;
+  top: 50px;
+  width: 1px;
+  filter: alpha(opacity=10);
+  opacity: 0.8;
+}
+.acm-features.style-5 .features-content .icon-wrapper {
+  background: rgba(0, 241, 159, 0.2);
+  border-radius: 50%;
+  display: block;
+  height: 50px;
+  left: 0;
+  line-height: 54px;
+  margin: 0 0 26px;
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 700ms ease 0.3s;
+  -o-transition: all 700ms ease 0.3s;
+  transition: all 700ms ease 0.3s;
+}
+.acm-features.style-5 .features-content .icon-wrapper .fa {
+  color: #ffffff;
+  font-size: 20px;
+}
+.acm-features.style-5 .features-content .intro-content {
+  position: relative;
+}
+.acm-features.style-5 .features-content .intro-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 13px;
+  margin-top: 0;
+}
+.acm-features.style-5 .features-content .intro-content p {
+  line-height: 1.8;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .section-introducing {
+    background-image: none !important;
+  }
+  .section-introducing .style-5 .features-content .col {
+    width: 50%;
+    clear: none;
+    float: left;
+    padding-left: 70px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .section-introducing .style-5 .features-content .icon-line {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-introducing {
+    background-image: none !important;
+  }
+  .section-introducing .style-5 .features-content .col {
+    width: 100%;
+    clear: none;
+    float: none;
+    padding-left: 70px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+}
+@media (max-width: 767px) {
+  .section-introducing .style-5 .features-content .col {
+    width: 100%;
+    float: none;
+  }
+}
