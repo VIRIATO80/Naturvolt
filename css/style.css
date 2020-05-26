@@ -1778,3 +1778,18 @@ textarea:focus {
     float: none;
   }
 }
+
+.sections-wrap .section .section-inner,
+.sections-wrap .t3-module .section-inner {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+@media (min-width: 992px) {
+  .sections-wrap .section .section-inner,
+  .sections-wrap .t3-module .section-inner {
+    padding-top: 104px;
+    padding-bottom: 104px;
+  }
+}
