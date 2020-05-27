@@ -1086,11 +1086,18 @@ footer img {
 /* About page
 ==================================================*/
 
+.sobre{
+    background: -webkit-linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/oficinas-naturvolt.jpg);
+    background: linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/oficinas-naturvolt.jpg);
+}
+
+.financiacion{
+    background: -webkit-linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/financiacion.png);
+    background: linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/financiacion.png);
+}
 .top-bar {
     color: #333;
     padding: 250px 0 250px;
-    background: -webkit-linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/oficinas-naturvolt.jpg);
-    background: linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/oficinas-naturvolt.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
