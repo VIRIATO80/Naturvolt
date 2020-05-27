@@ -1092,8 +1092,8 @@ footer img {
 }
 
 .financiacion{
-    background: -webkit-linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/financiacion.png);
-    background: linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/financiacion.png);
+    background: -webkit-linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/financiacion.jpg);
+    background: linear-gradient( rgba(56, 53, 53, .6), rgba(114, 226, 122, .9)), url(../img/financiacion.jpg);
 }
 .top-bar {
     color: #333;

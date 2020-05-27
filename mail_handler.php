@@ -1,11 +1,11 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "javi.lindo@gmail.com"; // this is your Email address
+    $to = "info@naturvolt.net"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['name'];
     $subject = "Mensaje web recibido";
     $subject2 = "Gracias por su interés en Naturvolt";
-    $message = $first_name . "  envió este mensaje:" . "\n\n" . $_POST['message'] . "\n\n" . "Teléfono:" . $_POST['phone'];
+    $message = $first_name . "  ha enviado este mensaje:" . "\n\n" . $_POST['message'] . "\n\n" . "Telefono:" . $_POST['phone'];
     $message2 = "Hemos recibido su mensaje.\n\n Pronto nos pondremos en contacto con usted.\n\nSaludos cordiales.";
 
     $headers = "From:" . $from;
